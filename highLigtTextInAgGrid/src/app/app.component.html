@@ -4,6 +4,10 @@
     Welcome to {{ title }}!
   </h1>
 </div>
+<div>
+  <span> Results</span><span><app-highlighted-text [messageDetail]="sampleData"
+                                                   [args]="'Key'"></app-highlighted-text></span>
+</div>
 <ag-grid-angular
   style="width: 500px; height: 500px;"
   class="ag-theme-balham"

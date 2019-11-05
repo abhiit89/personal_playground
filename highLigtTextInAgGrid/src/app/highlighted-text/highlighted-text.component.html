@@ -1,0 +1,4 @@
+<div *ngFor="let key of messageDetailsKeys">
+  <p><mark>{{key}}</mark>: <span [innerHTML]="getMarkedValue(key)"></span></p>
+</div>
+
